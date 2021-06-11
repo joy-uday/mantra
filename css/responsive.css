@@ -1,0 +1,298 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    /* home-section */
+    .home-section {
+      display: inline-flex;
+      width: 100%;
+      overflow-wrap: anywhere;
+    }
+    .sticky{
+      top: 10px ;
+      background-color: rgba(255, 255, 255, 0) !important;
+    }
+    .navbar{
+      background-color: #000000f2;
+    }
+    .navbar-nav{
+      text-align: center;
+    }
+    .nav-item{
+      padding-top: 10px;;
+    }
+    .nav-link{
+      font-size: 22px;
+    }
+    .home-section-content h4 {
+      font-size: 15px;
+      padding-top: 20px;
+      width: 70%;
+      margin: 0 auto;
+    }
+    .home-section-content h1 {
+      font-size: 45px;
+      letter-spacing: 10px;
+    }
+
+
+    /* about-mantra */
+    .about-mantra{
+      flex-flow: wrap;
+      height: auto;
+    }
+    .uhm h2 {
+      font-size: 20px;
+    }
+    .uhm {
+      width: 65%;
+    }
+    .universal-heading {
+      padding: 10% 0 3%;
+    }
+    .about-mantra-content-wrapp {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .about-mantra-content-body p {
+      text-align: center;
+      padding: 0 10px;
+    }
+    .about-mantra-content-bottom {
+      text-align: center;
+    }
+
+
+
+
+    /* team-members */
+    .team-members{
+      flex-flow: wrap;
+      height: auto !important;
+    }
+    .our-team-wrapper{
+      padding-top: 10% !important;
+    }
+    .member-hover-icon{
+      opacity: 1;
+    }
+    /* .one-page */
+    .one-page{
+      display: none;
+    }
+    /* .service */
+    .service{
+      height: auto;
+    }
+    .service-1{
+      text-align: center;
+      padding-top: 15px;
+      padding-bottom: 30px;
+    }
+    .service-1 .col-md-4{
+      justify-content: center !important;
+    }
+    .service-content .row .col-md-4:nth-child(2){
+      text-align: center;
+    }
+    .service-1 h2{
+      padding-top: 20px;
+    }
+
+
+
+    /* animate-bar */
+    .animate-bar{
+      height: auto;
+    }
+    .animate-bar-wrapper{
+      padding: 10% 0;
+    }
+    .experience{
+      border: 2px solid #5c5e5e;
+      padding: 15px 10px;
+      margin: 10px 0;
+    }
+    .experience h2{
+      margin: 0;
+    }
+    .experience h2:last-child{
+      border-left: 2px solid;
+      padding: 5px;
+    }
+    .animate-bar-text h2{
+      font-size: 25px;
+    }
+    .animate-bar-text {
+      text-align: center;
+    }
+    .animate-bar-text button{
+      margin: 0 auto;
+    }
+    /* our work */
+    .our-work{
+      height: auto;
+    }
+    .our-work-type ul{
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    .project-overlay{
+      opacity: 1;
+      background:linear-gradient(#ff000059, #000000);
+      top: 0%;
+      height: 100%;
+    }
+    .overlay-icon{
+      align-items: flex-end;
+    }
+    .project-1{
+      margin: 30px 0 10%;
+    }
+    .overlay-icon i{
+      padding: 0 10px 30px;
+    }
+    /* testimonial */
+    .testimonial{
+      height: auto;
+    }
+    .testimonial-wrapper{
+      padding: 10% 0;
+    }
+    .testimonial-1-text p{
+      font-size: 13px;
+      width: 90%;
+      margin: 0 auto;
+    }
+    .testimonial-1-img img{
+      width: 60px;
+    }
+    .testimonial-1-text{
+      margin: 5px 0 25px;
+    }
+    /* timeline */
+    .timeline00{
+      height: auto;
+    }
+    .timeline-date h4{
+      left: 93px;
+    }
+    .timeline-date img{
+      width: 48%;
+    }
+    .rewrite-timeline-3{
+      position: inherit !important;
+      
+    }
+    .rewrite-timeline-1{
+      position: inherit !important;
+    }
+    .timeline-1{
+      width: -webkit-fill-available;
+    }
+    /* pricing */
+    .pricing{
+      height: auto;
+    }
+    .pricing-wrapper {
+      padding: 6% 0 2%;
+    }
+    .pricing-1{
+      margin-bottom: 15px ;
+      border: 1px solid #fafafa;
+
+    }
+    .pricing-1-button {
+      padding: 6% 0 3%;
+    }
+    /* keep-touch*/
+    .keep-touch{
+      height: auto;
+      
+    }
+    .keep-touch-phone{
+      justify-content: flex-start;
+      margin: 5% 0;
+    }
+    .keep-touch-wrapper {
+      padding: 5% 0 10%;
+    }
+    /* contact */
+    .contact{
+      height: auto;
+    }
+    .contact-form-wrapper form input{
+      margin: 5px 0;
+
+    }
+    .contact-wrapper{
+      padding: 5% 0 10%;
+    }
+    .contact-heading .uhm{
+      width: 60%;
+    }
+    /* footer */
+    footer{
+      height: auto;
+    }
+  }

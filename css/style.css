@@ -1,0 +1,1151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* custom css starts here */
+
+/* ****************************
+header section starts here
+**************************** */
+
+header {
+    position: absolute;
+    width: 100%;
+    top: 7%;
+}
+
+#topbutton {
+    display: inline-block !important;
+    padding: 3px 10px;
+    background: none;
+    color: #ffffff75;
+    margin: 0 0px 0 20px;
+    border: none;
+    font-size: 16px;
+}
+
+.topinput {
+    padding: 2px 10px;
+    position: absolute;
+    right: 16px;
+    width: 10px;
+    z-index: -1;
+}
+
+.nav-link {
+    font-size: 16px !important;
+    font-family: 'open sans' !important;
+    color: white !important;
+    text-transform: capitalize !important;
+}
+
+.nav-link:hover {
+    color: #1db485 !important;
+}
+
+.nav-item {
+    padding: 0px 10px !important;
+}
+.sticky {
+    width: 100%;
+    position: fixed;
+    z-index: 99999;
+    opacity: 100%;
+    background: #21c692;
+    top: 0;
+    color: white;
+}
+.sticky .nav-link{
+    color: white !important;
+}
+/* ****************************
+header section ends here
+**************************** */
+
+/* ****************************
+home section starts here
+**************************** */
+
+.home-section {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    z-index: 99999999;
+}
+
+.home-section-content {
+    color: white;
+}
+
+.home-section-content h1 {
+    font-family: 'open sans';
+    font-size: 71px;
+    letter-spacing: 20px;
+    font-weight: lighter;
+}
+
+.home-section-content h4 {
+    font-family: 'open sans';
+    font-size: 18px;
+    font-weight: lighter;
+    padding-top: 20px;
+    letter-spacing: 5px;
+}
+
+/* ****************************
+home section ends here
+**************************** */
+
+/* ****************************
+about-mantra section starts here
+**************************** */
+
+.about-mantra {
+    height: 100vh;
+    border-bottom: 1px solid #edeced;
+    display: flex;
+    align-items: center;
+}
+.universal-heading-wrapp {
+    padding-top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uhb {
+    background: #21c692;
+    width: 50px;
+    height: 3px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.uhb::after {
+    content: "";
+    background: #21c692;
+    width: 3px;
+    height: 15px;
+    position: absolute;
+    right: 0;
+}
+
+.uha {
+    background: #21c692;
+    width: 50px;
+    height: 3px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.uha::before {
+    content: "";
+    background: #21c692;
+    width: 3px;
+    height: 15px;
+    position: absolute;
+    left: 0;
+}
+
+.uhm {
+    text-align: center;
+    text-transform: uppercase;
+    width: 25%;
+}
+
+.uhm h2 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 5px;
+}
+
+.about-mantra-content {
+    padding: 10% 0 0 0;
+}
+
+.about-mantra-content-wrapp {
+    text-align: center;
+}
+.about-mantra-content-heading i {
+    font-size: 25px;
+    height: 55px;
+    width: 55px;
+    line-height: 50px;
+    border-radius: 50%;
+    border: 1px solid #21c692;
+    color: #21c692;
+}
+
+.about-mantra-content-wrapp:hover .about-mantra-content-heading i {
+    background: #21c692;
+    color: white
+}
+
+.about-mantra-content-heading h2 {
+    font-size: 14px;
+    font-family: 'dosis', sans-serif;
+    letter-spacing: 4px;
+    font-weight: 700;
+    margin: 6% 0;
+}
+
+.about-mantra-content-body {
+    margin-top: 40px;
+    text-align: left;
+    font-size: 15px;
+    color: #726f75;
+    font-family: 'open sans';
+    width: 90%;
+    margin: 0 auto;
+}
+
+.about-mantra-content-bottom {
+    text-align: left;
+}
+
+.about-mantra-content-bottom a {
+    color: #726f75;
+    font-family: 'dosis', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 0 18px;
+}
+
+/* ****************************
+about-mantra section ends here
+**************************** */
+
+/* ****************************
+our-team-member section starts here
+**************************** */
+
+.team-members {
+    height: 110vh;
+    border-bottom: 1px solid #edeced;
+    display: flex;
+    align-items: center;
+}
+
+.our-team-member {
+    padding: 10% 0 0;
+}
+
+.member-1 {
+    background: #222221;
+    padding: 0 !important;
+    width: 32%;
+}
+
+.member-2 {
+    background: #21c692;
+    margin: 0;
+}
+
+.team-member {
+    height: 450px;
+    text-align: center;
+    color: white;
+    font-family: 'dosis', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-member-wrap {
+    text-align: center !important;
+}
+
+.team-member img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.team-member h2 {
+    font-size: 22px;
+    letter-spacing: 2px;
+    padding: 20px 0 0 0;
+}
+
+.team-member p {
+    font-size: 14px;
+}
+
+.member-hover-icon {
+    width: 100%;
+    opacity: 0;
+}
+
+.member-hover-icon a {
+    padding: 15px;
+    text-decoration: none;
+}
+
+.member-hover-icon i:hover {
+    color: yellow;
+    transition: .3s ease;
+}
+
+.member-hover-icon i {
+    font-size: 30px;
+    color: white;
+}
+
+.team-member:hover .member-hover-icon {
+    opacity: 1;
+    transition: .8s ease-in-out;
+    transform: translateY(10px)
+}
+
+/* ****************************
+our-team-member section ends here
+**************************** */
+
+/* ****************************
+one page section starts here
+**************************** */
+
+.one-page {
+    height: 65vh;
+    background: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.one-page-logo img::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 11px;
+    background: white;
+}
+.one-page-content h2 {
+    font-size: 30px;
+    color: #444444;
+    font-family: 'dosis', sans-serif;
+    padding: 40px 0 12px;
+}
+
+.one-page-content h4 {
+    font-size: 16px;
+    color: #e9e9e9;
+    font-family: 'open sans';
+    font-weight: 400;
+    border: 1px solid #a4a4a4;
+    width: 360px;
+    margin: 0 auto;
+    padding: 12px 0;
+}
+
+.one-page-button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #9f9f9f;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.one-page-button button {
+    border: none;
+    width: 90px;
+    height: 90px;
+    background: black;
+    border-radius: 50%;
+    color: #9f9f9f;
+    margin-top: 3px;
+    font-family: 'open sans';
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.one-page-button button:hover {
+    color: white;
+    background: #9f9f9f;
+    transition: .4s ease;
+}
+
+/* ****************************
+one page section ends here
+**************************** */
+
+/* ****************************
+service section starts here
+**************************** */
+
+.service {
+    height: 135vh;
+    display: flex;
+    align-items: center;
+}
+.service-wrapper .uhm {
+    text-align: center;
+    text-transform: uppercase;
+    width: 30%;
+}
+
+.service-content {
+    padding-top: 7%;
+}
+
+.service-content .row {
+    display: flex;
+    align-items: center;
+}
+
+.s-s1 {
+    text-align: right;
+}
+
+.s-s2 {
+    text-align: left;
+}
+.service-1 {
+    margin: 20px 0;
+}
+
+.service-1 h2 {
+    font-family: 'dosis', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.service-1 p {
+    font-size: 13px;
+    font-family: 'open sans';
+}
+
+.service-1 .col-md-4 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.service-1 .col-md-4 i {
+    font-size: 32px;
+    border-radius: 50%;
+    line-height: 60px;
+    height: 60px;
+    width: 60px;
+    background: #21c692;
+    color: white;
+}
+
+.ss-2 {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end;
+}
+
+/* ****************************
+service section ends here
+**************************** */
+
+/* ****************************
+animate-bar section starts here
+**************************** */
+
+.animate-bar {
+    height: 55vh;
+    background-color: #f3f6f6;
+    display: flex;
+    align-items: center;
+}
+.animate-bar-text h2 {
+    font-size: 20px;
+    font-family: 'dosis', sans-serif;
+    text-transform: uppercase;
+    color: #222221;
+    padding: 20px 0 0 0;
+}
+
+.animate-bar-text p {
+    font-size: 15px;
+    color: #7b787e;
+    font-family: 'open sans';
+}
+
+.animate-bar-text button {
+    font-size: 12px;
+    font-family: 'open sans';
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px 20px;
+    transition: .3s ease;
+    background: #21c692;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin: auto 0 0 70%;
+}
+
+.animate-bar-text button:hover {
+    background: #5c5e5e;
+}
+
+.experience {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.experience h2 {
+    font-family: 'dosis', sans-serif;
+    text-transform: uppercase;
+    color: #21c692;
+    font-size: 28px;
+    margin: 5% 0 0;
+}
+
+.experience h2:last-child {
+    margin: 0 7%;
+    font-size: 45px;
+    flex-basis: 21%;
+    font-family: bangers;
+    color: #5c5e5e;
+}
+
+.experience i {
+    padding: 0 15px;
+    color: #0000009e;
+}
+
+/* ****************************
+animate-bar section ends here
+**************************** */
+
+/* ****************************
+our work section starts here
+**************************** */
+
+.our-work {
+    height: 125vh;
+    display: flex;
+    align-items: center;
+}
+
+.our-work-projects .row {
+    text-align: center;
+}
+
+.our-work-type {
+    text-align: center;
+    margin: 6% 0 5%;
+}
+.our-work-type li {
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: 'open sans';
+    color: #21c692;
+    border: 1px solid #21c692;
+    padding: 5px 20px;
+    margin: 0 6px;
+    cursor: pointer;
+}
+
+.our-work-type li:hover {
+    color: white;
+    background: #21c692;
+}
+.project-1 {
+    position: relative;
+    height: 270px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.project-1 img {
+    max-width: 100%;
+}
+
+.our-work-projects .row:last-child {
+    margin-top: 27px;
+}
+
+.project-overlay {
+    background: #21c692ad;
+    height: 0%;
+    width: 100%;
+    position: absolute;
+    z-index: 9999;
+    opacity: 0;
+    top: 0;
+    opacity: 0;
+    left: 0;
+}
+
+.overlay-icon {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.overlay-icon i:hover {
+    color: blue !important;
+}
+
+.overlay-icon i {
+    font-size: 38px;
+    color: white;
+    transition: .3s ease;
+    padding: 0 10px;
+}
+
+.project-1:hover .project-overlay {
+    height: 100%;
+    top: 0;
+    opacity: 1;
+    transition: .3s ease;
+    z-index: 1;
+    overflow: hidden;
+}
+
+/* ****************************
+our work section ends here
+**************************** */
+
+/* ****************************
+testimonial section starts here
+**************************** */
+
+.testimonial {
+    background: #111111;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+.testimonial-1 {
+    text-align: center;
+    color: #4d4d4d;
+}
+.testimonial-1-img img {
+    width: 90px;
+    border-radius: 50%;
+}
+
+.testimonial-1-img h2 {
+    font-size: 25px;
+    font-family: 'dosis', sans-serif;
+    text-transform: uppercase;
+    margin: 15px 0 0 0;
+}
+
+.testimonial-1-img p {
+    font-family: 'dosis';
+    font-style: italic;
+    font-size: 16px;
+    margin: 0;
+}
+
+.testimonial-1-text {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: white;
+}
+
+span.swiper-pagination-bullet {
+    background: #21c692;
+    opacity: 1;
+}
+
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets {
+    bottom: -5px;
+}
+
+/* ****************************
+testimonial section ends here
+**************************** */
+
+/* ****************************
+timeline section starts here
+**************************** */
+
+.timeline00 {
+    height: auto;
+    overflow: hidden;
+    border-bottom: 1px solid #edeced;
+}
+
+.timeline-wrapper {
+    padding: 7% 0px;
+}
+
+.timeline-heading {
+    margin: 20px 0 100px;
+}
+
+.timeline-content {
+    margin-top: 0% !important;
+}
+
+.timeline-1 {
+    width: 470px;
+}
+
+.timeline-1-header {
+    width: 560px;
+}
+
+.timeline-date {
+    position: relative;
+}
+
+.timeline-date img {
+    width: 470px;
+}
+
+.timeline-date h4 {
+    position: absolute;
+    background: #726f75;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    color: white;
+    font-family: 'dosis', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 30px 0 0;
+    line-height: 20px;
+    border: 3px solid white;
+    top: -50px;
+    right: 48%;
+}
+.timeline-1-content-text h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'dosis', sans-serif;
+    padding: 40px 0;
+    color: #a19fb8;
+    margin: 0;
+}
+
+.timeline-1-content-text p {
+    font-size: 15px;
+    font-family: 'open sans';
+    color: #a19fa3;
+    margin: 0;
+}
+
+.timeline-1-content-footer {
+    padding-top: 10%;
+}
+
+.timeline-1-content-footer .col-md-8 {
+    display: flex;
+}
+
+.timeline-1-content-footer .col-md-8 p {
+    flex-basis: 45%;
+    color: #a1abc3;
+    font-size: 16px;
+}
+.timeline-1-content-footer .col-md-8 i {
+    padding: 0 10px 0 0;
+}
+
+.timeline-1-content-footer .col-md-8 a {
+    text-transform: capitalize;
+    font-family: 'dosis';
+}
+.timeline-1-content-footer .col-md-4 a {
+    background: #21c692;
+    padding: 5px 30px;
+    color: white;
+    border-radius: 22px;
+    margin: 0 0 0 53%;
+}
+
+.timeline-1-content-footer .col-md-4 a:hover {
+    background: #5c5e5e;
+}
+.timeline__content {
+    background: none !important;
+    border: none !important;
+}
+
+.timeline__items {
+    margin-top: 20px;
+}
+
+.timeline__item:after {
+    top: 25% !important;
+}
+
+.timeline__content:after,
+.timeline__content:before {
+    top: 24% !important;
+}
+
+.rewrite-timeline-1 {
+    position: absolute !important;
+    top: 5% !important;
+}
+
+.rewrite-timeline-3 {
+    position: absolute !important;
+    top: 43% !important;
+}
+
+/* ****************************
+timeline section ends here
+**************************** */
+
+/* ****************************
+pricing section starts here
+**************************** */
+
+.pricing {
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pricing-heading {
+    margin: 10% 0;
+}
+
+.pricing-main {
+    background: #F3F6F6;
+    width: 100%;
+}
+
+.pricing-main-wrapp {
+    padding: 5% 0;
+}
+
+.pricing-1 {
+    text-align: center;
+    width: 335px;
+    background: white;
+    color: #18191a;
+}
+
+.pricing-1:hover .pricing-1-header-text {
+    background: #FFFFFF;
+    background: -webkit-radial-gradient(center, #FFFFFF, #21C792);
+    background: -moz-radial-gradient(center, #FFFFFF, #21C792);
+    background: radial-gradient(ellipse at center, #FFFFFF, #21C792);
+    transition: .5s ease-in-out;
+}
+
+.pricing-1-header {
+    padding: 10px 10px 0px 10px;
+}
+
+.pricing-1-header-text {
+    padding: 40px;
+    background: white;
+}
+
+.pricing-1-header-text h2 {
+    font-family: 'open sans';
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.pricing-1-header-text h1 {
+    font-size: 52px;
+    font-family: 'dosis', sans-serif;
+}
+
+.pricing-1-header-text p {
+    font-size: 22px;
+    font-family: 'dosis';
+    text-transform: uppercase;
+}
+
+.pricing-1-body ul {
+    padding: 0;
+    margin: 0;
+}
+
+.pricing-1-body li {
+    list-style: none;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'open sans';
+    padding: 10px 0;
+    text-transform: capitalize;
+    color: #BDC2C8;
+    letter-spacing: 1px;
+}
+
+.pricing-1-body li:nth-child(odd) {
+    background: #FAFAFA;
+}
+
+.pricing-1-button button {
+    text-transform: uppercase;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 7px solid #edefef;
+    font-size: 30px;
+    font-family: 'dosis';
+    -webkit-box-shadow: inset 0px 1px 3px 0px #5a4d4d;
+    background: white;
+    color: #21c692;
+    font-weight: 500;
+    transition: .5s ease;
+}
+
+.pricing-1:hover .pricing-1-button button {
+    background: #21c692;
+    color: white;
+}
+
+/* ****************************
+pricing section ends here
+**************************** */
+
+/* ****************************
+keep-touch section starts here
+**************************** */
+
+.keep-touch-heading {
+    padding: 0% 0 8%;
+}
+
+.keep-touch-heading .uhm {
+    width: 30%;
+}
+.keep-touch-phone {
+    display: flex;
+    align-items: center;
+}
+
+.keep-touch-phone-icon {
+    flex-basis: 25%;
+}
+
+.keep-touch-phone-icon i {
+    text-align: center;
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #21c692;
+    border-radius: 50%;
+    line-height: 60px;
+    color: #21c692;
+}
+
+.keep-touch-phone-text {
+    font-family: 'dosis';
+}
+
+.keep-touch-phone-text p {
+    font-family: 'dosis';
+    text-transform: uppercase;
+    margin: 0px;
+    font-size: 20px;
+}
+.keep-touch {
+    height: 55vh;
+    display: flex;
+    align-items: center;
+}
+
+.location {
+    justify-content: center;
+}
+
+.mail {
+    justify-content: flex-end;
+}
+
+/* ****************************
+keep-touch section ends here
+**************************** */
+
+/* ****************************
+contact section starts here
+**************************** */
+
+.contact {
+    background: #f3f6f6;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+}
+
+.contact-heading .uhm {
+    width: 30%;
+}
+.contact-heading {
+    padding: 0% 0 6%;
+}
+.contact-form-wrapper form {
+    text-align: center;
+}
+
+.contact-form-wrapper form input {
+    border: 1px solid #c4d6d6;
+    background: none;
+    padding: 15px 10px 15px 20px;
+    width: 100%;
+    font-family: 'dosis';
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.contact-form-wrapper form .row .col-md-3 input {
+    width: 100%;
+}
+
+.contact-form-wrapper form .row .col-md-6 input {
+    width: 100%;
+}
+.form-message textarea {
+    border: 1px solid #c4d6d6;
+    background: none;
+    padding: 15px 10px 15px 20px;
+    width: 100%;
+    font-family: 'dosis';
+    text-transform: uppercase;
+    font-style: italic;
+    height: 180px;
+}
+
+.submit-btn {
+    background: #21c692 !important;
+    width: 190px !important;
+    text-align: center;
+    padding: 10px 0px !important;
+    color: white;
+    font-style: initial !important;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-radius: 35px;
+    margin-top: 18px;
+}
+
+.submit-btn:hover {
+    background: #20a77c !important;
+}
+
+.form-message {
+    padding-top: 3%;
+}
+
+/* ****************************
+contact section ends here
+**************************** */
+
+/* ****************************
+footer section starts here
+**************************** */
+
+footer {
+    background: black;
+    height: 70vh;
+    color: #e9e9e9;
+    text-align: center;
+    position: relative;
+}
+
+.footer-top::after {
+    content: "";
+    position: absolute;
+    background: #171717;
+    width: 100%;
+    height: 1px;
+    top: 220px;
+}
+.footer-top {
+    display: flex;
+    height: 35vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.footer-top-wrapper i {
+    font-size: 25px;
+    color: red;
+}
+
+.footer-top-wrapper p {
+    font-family: bellandha !important;
+    font-size: 40px;
+    margin: 0;
+}
+.footer-bottom {
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-link li {
+    list-style: none;
+    display: inline-block;
+}
+.nav-items{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #105d45;
+    border-radius: 50%;
+    line-height: 45px;
+}
+.footer-link a {
+    color: #105d45 !important;
+    font-size: 22px;
+}
+
+.footer-link a:hover {
+    color: #e9e9e9 !important;
+}
+
+.top-link {
+    padding: 5%;
+    margin: 0;
+}
+
+.top-link i {
+    font-size: 40px;
+    color: white;
+    transition: .5s ease;
+}
+
+.top-link i:hover {
+    color: yellow;
+    transform: translateY(-15px);
+}
+.copyright a {
+    font-family: 'dosis';
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 4px;
+    color: #21c692;
+}
+
+.copyright a:hover {
+    color: yellow;
+}
+
+/* ****************************
+footer section ends here
+**************************** */
+
+/* custom css end here */
